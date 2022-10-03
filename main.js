@@ -34,6 +34,17 @@ const espar = (Number) => {
  
 
 }
+console.log(espar(2))
+const numbers =[1,2,3,9]
+
+for(let i = 0; i < numbers.lenght; i++){
+if(espar(numbers[i])){
+    console.log("el numero", numbers[i], 'es par')
+    console.log("el numero", numbers[i], 'es impar')
+}
+
+}
+
 
 
 
